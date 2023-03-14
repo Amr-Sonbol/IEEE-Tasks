@@ -1,0 +1,10 @@
+Task #1 Explain How The Web Works ? and Explain What is “client server model”? .
+
+How the web works: 
+When you type or click a URL into your browser, The browser goes to the DNS (Domain Name System) server,DNS checks the IP address for the server that hosts your website. 
+
+The browser sends an HTTP request message to the server, asking it to send a copy of the website to the client. This message, and all other data sent between the client and the server, is sent across your internet connection using TCP/IP.
+
+If the server approves the client's request, the server sends the client a "200 OK" message, which means "Of course you can look at that website! Here it is", and then starts sending the website's files to the browser as a series of small chunks called data packets.
+
+Client-server model is a distributed application structure that partitions tasks or workloads between the providers "google" of a resource or service called servers, and service requesters "users" called clients. Often clients and servers communicate over a computer network on separate hardware, but both client and server may reside in the same system. A server host runs one or more server programs, which share their resources with clients. A client usually does not share any of its resources, but it requests content or service from a server. Clients, therefore, initiate communication sessions with servers, which await incoming requests.Examples of computer applications that use the client-server model are email, and the World Wide Web.
